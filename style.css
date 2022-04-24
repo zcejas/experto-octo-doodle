@@ -1,0 +1,107 @@
+html,
+body {
+    background-image: url(Imagenes/fondoBody.jpg)
+}
+#contenedor {
+    width: 960px;
+    height: 700;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    width: 960 px;
+    height:156px;
+    background-image: url(Imagenes/tiempo.jpg.jpg);
+}
+#marca {
+    width: 640px;
+    height: 156px;
+    background-image: url(Imagenes/fondo1.webp);
+    float: right;
+}
+#menu {
+    width: 205px;
+    height: 155px;
+    background-image: url(Imagenes/rollo.jpg.jpg);
+    float:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ul.botonera  {
+    margin: 0%;
+    padding: 0,6%;
+    list-style: none;
+}
+ul.botonera li a {
+    width: 166px;
+    height: 47px;
+    margin-bottom: 3px;
+    display: block;
+    text-align: justify;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    line-height: 30px;
+    float: left;
+}
+ul.botonera li a:hover {
+    background: rgb(194, 207, 205);
+}
+#columnas {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: rgb(244, 238, 234);
+}
+h3 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+nav {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+}
+article {
+    width: 640px;
+    height: 500px;
+    float:right;
+    background-color:  rgb(244, 238, 234);;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+p {
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+}
+p { 
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+footer {
+    width: 960px;
+    height: 100px;
+    clear: both;
+    background-color: rgb(11, 10, 10);
+    text-decoration: none;
+    text-align: center;
+    color:  rgb(244, 238, 234);
+    font-family: cursive;
+}
